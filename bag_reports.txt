@@ -1,0 +1,27 @@
+
+  "bug_report": [
+               "ID",
+               "Title",
+               "Steps",
+               "Expected Results",
+               "Actual Results",
+               "Priority",
+               "Severety",
+               "Attachments",
+               "Reproduable",
+               "Created day",
+               "Reporter",
+               "Environment"[A[A[A[A[A[A[A[A[A[A[A[A[D[D[D[D[D[D[D[D[D[:[D[D[D[D[D[D[D[D[D[B[B[B[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[D[D[D[[B[[C[C[C[C[C[C[[B[[A[A[[B[C[C[C[[B[D[D[D[D[D[[B[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[D[D[D[D[D[D[D[D[D[D[D[D[C[Ac[B[D[[C[C[C[C[C[C[C[C[C[C[B[D[D[D[D[D[D[D[[C[C[C[C[C[C[C[C[C[C[B[D[D[D[D[D[D[D[[C[C[B[B[B[B[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[[A[A[C[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[[A[C[C[C[C[C[C[C[C[C[C[C[C[[A[C[C[C[[C[A[[C[C[C[C[A
+             Bug_report: 
+               ID
+              Title
+              Steps
+               Expected Results
+              Actual Results
+              Priority
+               Severety
+               Attachments
+               Reproduable
+               Created day
+               Reporter
+               Environment
