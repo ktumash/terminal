@@ -1,0 +1,13 @@
+  Bug_report: 
+            ID
+            Title
+            Steps
+            Expected Results
+            Actual Results
+            Priority
+            Severety
+            Attachments
+            Reproduable
+            Created day
+            Reporter
+            Environment
