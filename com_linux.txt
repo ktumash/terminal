@@ -1,0 +1,155 @@
+  1  pwd                        посмотреть, где находимся
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33
+     $ pwd
+     /d/group_33
+  
+  2  mkdir com_linux 		создать папку com_linux 
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33
+     $ mkdir com_linux
+
+  3  cd com_linux 		зайти в папку com_linux
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33
+     $ cd com_linux
+
+  4  mkdir 1 2 3  		создать 3 папки в папке 
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+     $ mkdir 1 2 3
+
+  5  cd 1 			зайти в папку 1
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+     $ cd 1
+
+  6  touch 1.txt 2.txt 3.txt 4.json 5.json      создать файлы
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux/1
+     $ touch 1.txt 2.txt 3.txt 4.json 5.json
+
+
+  7  mkdir dir_1 dir_2 dir_3 			создать 3 папки
+
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux/1
+     $ mkdir f_1 f_2 f_3
+
+  11  ls -la 					посмотреть содержание папки
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux/1
+      $ ls -la
+      total 4
+      drwxr-xr-x 1 User 197121 0 May 15 14:11 ./
+      drwxr-xr-x 1 User 197121 0 May 15 14:07 ../
+      -rw-r--r-- 1 User 197121 0 May 15 14:09 1.txt
+      -rw-r--r-- 1 User 197121 0 May 15 14:09 2.txt
+      -rw-r--r-- 1 User 197121 0 May 15 14:09 3.txt
+      -rw-r--r-- 1 User 197121 0 May 15 14:09 4.json
+      -rw-r--r-- 1 User 197121 0 May 15 14:09 5.json
+      drwxr-xr-x 1 User 197121 0 May 15 14:11 f_1/
+      drwxr-xr-x 1 User 197121 0 May 15 14:11 f_2/
+      drwxr-xr-x 1 User 197121 0 May 15 14:11 f_3/
+
+  12  cd ..                     выйти на уровень выше
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux/1
+      $ cd ..
+
+  13  mv                        переместить 2 файла
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ mv 10.txt 11.txt 2
+
+
+  14  cp                        сделали копию 2 файлов 
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ cp 12.json 13.json 2
+ 
+  15  find 1 -name 5.json       найти файл 5.json в папке "1" по названию
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ find 1 -name 5.json
+      1/5.json
+
+  16  tail -f                   просмотр содержимого в реальном времени
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ tail -f 1/1.txt
+
+  17  head -n                   вывод строк с начала          
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ head -n2 1/1.txt
+      one
+      two
+ 
+  18  tail -n	                вывод указанного количества строк с конца
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ tail -n3 1/1.txt
+      five
+      six
+      seven
+   
+  19  less                       просмотр файла большого размера
+                  
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ less 1/1.txt
+
+      one
+      two
+      three
+      forth
+      five
+      six
+      seven
+      1/1.txt (END)
+
+  20  date                      вывод даты и времени
+  
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ date
+      Mon May 15 14:34:30 RTZ 2023
+
+  21  curl                      отправить запрос на сервер
+
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ curl http://162.55.220.72:5005/terminal-hw-request
+ 
+  22  vim  			текстовый редактор (создали скрипт, сохранили/вышли :x)
+     
+     User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+     $ vim
+
+     cd /d/group_33/com_linux/
+     mkdir kot dog elefant
+     cd kot
+     touch 1.txt 2.txt 3.txt 4.json 5.json
+     mkdir dir_4 dir_5 dir_6
+     ls -la
+     mv /d/group_33/com_linux/kot/1.txt /d/group_33/com_linux/kot/5.json /d/group_33/com_linux/dog
+
+  23  bash skr 			запустили скрипт
+  
+      User@WIN-PV95UQGEIBF MINGW64 /d/group_33/com_linux
+      $ bash skr
+
+      mkdir: cannot create directory ‘kot’: File exists
+      mkdir: cannot create directory ‘dog’: File exists
+      mkdir: cannot create directory ‘elefant’: File exists
+      mkdir: cannot create directory ‘dir_4’: File exists
+      mkdir: cannot create directory ‘dir_5’: File exists
+      mkdir: cannot create directory ‘dir_6’: File exists
+      total 8
+      drwxr-xr-x 1 User 197121 0 May 15 17:55 .
+      drwxr-xr-x 1 User 197121 0 May 15 17:54 ..
+      -rw-r--r-- 1 User 197121 0 May 15 17:55 1.txt
+      -rw-r--r-- 1 User 197121 0 May 15 17:55 2.txt
+      -rw-r--r-- 1 User 197121 0 May 15 17:55 3.txt
+      -rw-r--r-- 1 User 197121 0 May 15 17:55 4.json
+      -rw-r--r-- 1 User 197121 0 May 15 17:55 5.json
+      drwxr-xr-x 1 User 197121 0 May 15 17:52 dir_4
+      drwxr-xr-x 1 User 197121 0 May 15 17:52 dir_5
+      drwxr-xr-x 1 User 197121 0 May 15 17:52 dir_6
+
